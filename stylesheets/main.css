@@ -36,10 +36,7 @@ h1.type-writer {
   padding-left: 22%;  
 }
 
-.carousel-item {
-    max-height: 700px;
-    object-fit: contain;
-}
+
 .title-space {
     margin: 100px 0px;
 }
@@ -133,10 +130,18 @@ h1.type-writer {
     height: 70vh;
 }
 
-.footer {
+.footer-light {
     display: flex;
     align-items: center;
-    background-color: rgb(36, 36, 36);;
+    background-color: rgba(255, 214, 227, 1); 
+    color: rgb(36, 36, 36);
+    height: 5vh;
+}
+
+.footer-dark {
+    display: flex;
+    align-items: center;
+    background-color: rgb(36, 36, 36);
     color: rgba(255, 214, 227, 1); 
     height: 5vh;
 }
@@ -196,3 +201,25 @@ h1.type-writer {
 .right-img {
     padding: 0 0 0 0.8rem;
 }
+
+#myBtn {
+    display: block; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 35px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: #555; /* Set a background color */
+    color: rgb(36, 36, 36); /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 50px; /* Rounded corners */
+  }
+  
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+    color: #FFD6E3;
+    transform: scale(1.1);
+  }
